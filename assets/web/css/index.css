@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    background: url('/assets/img/login_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#body-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#body-content {
+    padding-top: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-container {
+    background: chocolate;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+#login-content {
+    background: darkgreen;
+    border: 2px solid black;
+    padding: 10px;
+    color: white;
+}
+
+input#user,
+input#pass {
+    width: 300px;
+    margin: 0px 5px;
+    border-radius: 50px;
+    border: 3px solid black;
+    padding-left: 5px;
+    background: transparent;
+    color: white;
+}
+
+input#user::placeholder,
+input#pass::placeholder {
+    color: rgb(220, 220, 220);
+}
+
+input#user:focus,
+input#pass:focus {
+    outline-width: 0;
+}
+
+input#keep-login {
+    margin-top: 12px;
+    border: 2px solid black;
+}
+
+/**/
+p,h1,h2,h3,h4,h5,h6,hr {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    background: black;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+label#cklogin {
+    font-weight: bold;
+    font-size: small;
+}
+
+#BTN_login {
+    display: block;
+    width: 40%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: chocolate;
+    border: none;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 300px;
+    background: green;
+}
+
+#confirmation-container {
+    max-width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+#confirmation-content {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 5px;
+}
+
+#confirmation-mark {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    left: 50%;
+    margin-left: -15px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid black;
+}
+
+#confirmation-content #confirmation-address {
+    padding-top: 10px;
+}
+
+#confirmation-content hr {
+    width: 100%;
+    background: black;
+}
+
+#confirmation-content div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#confirmation-content p {
+    margin-top: 10px;
+}
+
+#item-list li {
+    padding-left: 0;
+    list-style-type: none;
+    width: 300px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+#item-list li:not(:last-child) {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.item-list-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.item-list-texts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 175px;
+}
+
+.item-text-name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.item-list-texts > * {
+    margin: 0;
+    padding: 0;
+}

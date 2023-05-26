@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>OnlinePalengke | Checkout</title>
+
+        <link rel="stylesheet" href="/assets/web/css/checkout.css">
+    </head>
+    <body>
+        <div id="checkout-container">
+            <div id="checkout-contents">
+                <h3>Contact</h3>
+                <input id="receiptRecv" type="text" id="checkout-contact" placeholder="Enter an email or phone number"/>
+                <br/>
+                <h3>Shipping Address</h3>
+                <input id="Firstname" type="text" placeholder="First name"/>
+                <input id="Lastname" type="text" placeholder="Last name"/>
+                <input id="address" type="text" placeholder="Address"/>
+                <input id="zip" type="number" placeholder="ZIP/Postal code"/>
+                <input id="phonenum" type="number" placeholder="Phone number"/>
+                <div id="checkout-checkbox">
+                    <input type="checkbox"/>
+                    <h5>Save this information for next time</h5>
+                </div>
+                <button onclick="userData()">Continue to shipping</button>
+                <a href="#" onclick="history.back()"><h5>< Return to cart</h5></a>
+            </div>
+        </div>
+    </body>
+    <script src="/assets/web/js/cart.sys.js"></script>
+</html>
